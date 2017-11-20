@@ -1,18 +1,39 @@
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
-@media screen and (min-width: 500px) 
-{
-
+@media screen and (min-width: 500px) {
+	nav a {
+		width: 10%;
+		display: inline-block;
+	
+	}
+	
+	main {
+		width 20%;
+		margin: 0 auto;
+	}
+	
+	body{
+		background-color:red;
+	}
 }
 /* END FIRST BREAKPOINT */
 
 
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
 @media screen and (min-width: 1000px) {
-  /*
-    - applies to screens larger than 999px only
-    - add a max-width to your main section
-    - further decrease size of sections
-    - increase size of headings and global fonts
-  */
+ 
+ nav {
+	 display:block;
+	}
+	nav a {
+		line-height: 3em;
+		width: inherit;
+	}
+	
+	#MainMenu {
+		display:none;
+	}
+	body{
+		background-color: green;
+	}
 }
 /* END SECOND BREAKPOINT */
