@@ -1,8 +1,22 @@
 
+
 #PhoneLogo img {
 	max-width: 25%;
 	text-align: left;
 }
+
+
+a.hre:link {border: 3px  #780000  ;
+padding: 8px 5px 8px 5px;
+background-color: #8F002E;
+color: #FFFFFF ;
+font-family: "Arial", sans-serif;
+text-decoration: none;}
+
+a.button:visited{background-color:#8F002E; color: #FFFFFF ;}
+a.button:hover { background-color: #FFFFFF; color: #8F002E ;} 
+a.button:active {background-color:#FFFFFF; color: #8F002E;}
+
 
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
