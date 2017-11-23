@@ -14,16 +14,16 @@ nav a {
 	display: block;
 }
 
-#mainMenu {
+#mainmenu {
 	display:block;
 }
 
-.displayMenu {
+.displaymenu {
 	display: block;
 }
 
-#PhoneLogo imgs {
-	max-width: 25%;
+#phonelogo imgs {
+	max-width: 2%;
 	text-align: left;
 }
 
@@ -57,7 +57,7 @@ nav a {
 	 width: inherit;
  }
 
- #mainMenu {
+ #mainmenu {
 	 display: none;
 	}
  body {
