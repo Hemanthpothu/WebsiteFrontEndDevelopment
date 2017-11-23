@@ -1,19 +1,19 @@
 (function(){
 	
-	let menuButton = document.getElementById ("mainmenu");
+	let menuButton = document.getElementById ("mainMenu");
 	let navMenu = document.getElementById ("nav-menu");
 	
-	menuButton.addEventListener("click", togglemenu);
+	menuButton.addEventListener("click", toggleMenu);
 	
 	
 	let toggle = false; //hidden at first
-	function togglemenu() {
+	function toggleMenu() {
 		if (toggle) { //if menu is visible
-		navMenu.classList.remove("displaymenu"), //hide the menu
+		navMenu.classList.remove("displayMenu"), //hide the menu
 		toggle = false
 		}
 		else { // false: it's hidden
-		navMenu.classList.add("displaymenu"), // show the menu
+		navMenu.classList.add("displayMenu"), // show the menu
 		toggle = true
 		}
 	}

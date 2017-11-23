@@ -14,16 +14,16 @@ nav a {
 	display: block;
 }
 
-#mainmenu {
+#mainMenu {
 	display:block;
 }
 
-.displaymenu {
+.displayMenu {
 	display: block;
 }
 
-#phonelogo imgs {
-	max-width: 2%;
+#phonelogo img {
+	max-width: 30%;
 	text-align: left;
 }
 
@@ -32,8 +32,14 @@ nav a {
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {  
  nav a {
-	 width: 10%;
+	 width: 5%;
 	 display: inline-block;
+	 border: 3px  #780000  ;
+padding: 5px 52px 5px 2px;
+background-color: #8F002E;
+color: #FFFFFF ;
+font-family: "Arial", sans-serif;
+text-decoration: none;
 	} 
 
 	main {
@@ -57,10 +63,17 @@ nav a {
 	 width: inherit;
  }
 
- #mainmenu {
+ #mainMenu {
 	 display: none;
 	}
  body {
 	 background-color: yellow;
 	}
+	
+#container {
+	
+position: absolute;
+    left: 50%;
+    margin-left: -100px;
+}
 }
