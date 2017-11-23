@@ -10,36 +10,69 @@ nav {
 }
 
 nav a {
-	padding: 1em;
-	display: block;
-}
+	 width: 20%;
+	 display:block; 
+	 float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 20px 20px;
+     text-decoration: none;
+     font-size: 17px;
+	 border: 3px  #780000  ;
+	 padding: 2px 2px 2px 2px;
+	 background-color: #8F002E;
+	
+	} 
 
 #mainMenu {
 	display:block;
+	font-family: "Arial", sans-serif;
+	border: 3px  #780000  ;
+	padding: 2px 2px 2px 2px;
+	background-color: #8F002E;
+	color: #FFFFFF ;
+	margin-left: auto;
+    margin-right: auto;
+	max-width: 200px;
+	text-align: center;
+	
 }
 
 .displayMenu {
 	display: block;
 }
 
-#phonelogo img {
-	max-width: 30%;
-	text-align: left;
+h1 {
+    text-align: center;
 }
+
+h2 {
+    text-align: center;
+}
+
+#phonelogo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 200px;
+	}
+
+
 
 
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {  
  nav a {
-	 width: 5%;
-	 display: inline-block;
-	 border: 3px  #780000  ;
-padding: 5px 52px 5px 2px;
-background-color: #8F002E;
-color: #FFFFFF ;
-font-family: "Arial", sans-serif;
-text-decoration: none;
+	 width: 20%;
+	 display: inline-block; 
+	 float: left;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 20px 20px;
+     text-decoration: none;
+     font-size: 17px;
+	 
 	} 
 
 	main {
@@ -50,9 +83,31 @@ text-decoration: none;
 	body{
 		background-color:green;
 	}
-}	
+	
+#container {
+	
+	position: absolute;
+    left: 50%;
+    margin-left: -250px;
+}
 
- /* SECOND BREAKPOINT (LARGE SIZE) */ 
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#phonelogo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 200px;
+	}
+}
+	
+ /* /* SECOND BREAKPOINT (LARGE SIZE) */ 
  @media screen and (min-width: 1000px) { 
  nav {
 	  display: block;
@@ -72,8 +127,23 @@ text-decoration: none;
 	
 #container {
 	
-position: absolute;
+	position: absolute;
     left: 50%;
-    margin-left: -100px;
+    margin-left: -250px;
 }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#phonelogo img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	max-width: 200px;
+	}
 }
