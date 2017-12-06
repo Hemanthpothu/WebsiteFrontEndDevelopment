@@ -2,8 +2,9 @@
 
 
 body {
-	background-color: red;
+	background-color:#FFCDCD;
 	font-size: 19px;
+	
 }
 
 
@@ -16,14 +17,21 @@ nav a {
 	 width: 100%;
 	 display:block;
 	} 
+ a:hover:not(.active) {
+    background-color:#FF7575;
+}
 
+.active {
+background-color:#FF7575;
+}
 	
 #mainMenu {
 	display:block;
 	font-family: "Arial", sans-serif;
-	line-height: 80px
+	line-height: 70px
 
 }
+
 
 
 .displayMenu {
@@ -46,7 +54,9 @@ h2 {
     margin-left: auto;
     margin-right: auto;
 	max-width: 200px;
+	text-align:center;
 	}
+
 
 	
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -54,10 +64,14 @@ h2 {
  nav a {
 	 width: 100px;
 	 display: inline-block; 
-	 
-
 	 } 
+ a:hover:not(.active) {
+    background-color:#FF7575;
+}
 
+.active {
+background-color:#FF7575;
+}
 	 
 	main {
 		width: 20%;
@@ -66,9 +80,9 @@ h2 {
 	
 	
 	body{
-		background-color:green;
+		background-color:#F4E6E6;
 	}
-	
+		
 	
 	h1 {
     text-align: center;
@@ -80,19 +94,16 @@ h2 {
 	}
 
 
-#phonelogo img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	max-width: 200px;
-	}
+
+	
 }
+
 	
-	
- /* /* SECOND BREAKPOINT (LARGE SIZE) */ 
+	 /* /* SECOND BREAKPOINT (LARGE SIZE) */ 
  @media screen and (min-width: 1000px) { 
  nav {
 	  display: block;
+	  margin-left:absolute;
  }
  
  
@@ -101,42 +112,48 @@ h2 {
 	 line-height: 3em;
 	 }
 
+ a:hover:not(.active) {
+    background-color:#FF7575;
+}
+
+.active {
+background-color:#FF7575;
+}
+ 
  
  #mainMenu {
 	 display: none;
-	 line-height: 80px
+	 
 	}
 	
+#nav-menu{
+	text-align:center;
+}
 	
  body {
-	 background-color: yellow;
+	 background-color:#FFFFFF;
 	}
 	
-	
 #container {
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
 	
-	position: absolute;
-    left: 50%;
-    margin-left: -200px;
-}
-
+}	
 
 h1 {
     text-align: center;
+	
 }
 
 
 h2 {
     text-align: center;
+	
 }
 
-
-#phonelogo img {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
-	max-width: 200px;
-	}
-
-}
-
+h3 {
+    text-align: center;
+	
+ 
+ }
