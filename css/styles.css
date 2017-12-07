@@ -2,7 +2,7 @@
 
 
 body {
-	background-color:#FFCDCD;
+	background-color:#FFFFFF;
 	font-size: 19px;
 	}
 	
@@ -24,20 +24,20 @@ nav a {
 	 width: 190px;
 	 display:block;
 	 padding: 8px 5px 8px 5px;
-	 background-color: #FFA5A5;
+	 background-color: #000000;
 	 color: #FFFFFF ;
 	 font-family: "Arial", sans-serif;
 	 text-decoration: none;
 	}
 	
 	
- a:hover:not(.active) {
-    background-color:#FF7575;
+a:hover:not(.active) {
+    background-color:#FF0000;
 }
 
 
 .active {
-  background-color:#FF7575;
+  background-color:#FF0000;
 }
 
 
@@ -46,7 +46,7 @@ nav a {
 	font-family: "Arial", sans-serif;
 	line-height: 70px;
 	text-align: center;
-	background-color:#FF7575;
+	background-color:#FF0000;
 	margin:0px;
 	width:100%; 
 	}
@@ -66,7 +66,8 @@ h1 {
 	margin:0px;
 	padding: 5px;
 	width: 100%;
-	background: #FF7575;
+	background: #FF0000;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 	}
@@ -78,7 +79,8 @@ h2 {
 	margin:0px;
 	padding: 5px;
 	width: 100%;
-	background: #FFA5A5;
+	background: #000000;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 	}
@@ -106,15 +108,15 @@ h3 {
 	 width: 100px;
 	 display: inline-block;
 	 border: 3px #780000;
-	 padding: 8px 5px 8px 5px;
-	 background-color: #FFA5A5;
+	 padding: 8px 10px 8px 10px;
+	 background-color: #000000;
 	 font-family: "Arial", sans-serif;
 	 text-decoration: none;
 	 }
 	 
 	 
- a:hover:not(.active) {
-    background-color:#FF7575;
+a:hover:not(.active) {
+    background-color:#FF0000;
 }
 
 
@@ -129,7 +131,7 @@ main {
 
 
 body{
-		background-color:#F4E6E6;
+	background-color:#FFFFFF;
 	}
 	
 
@@ -146,7 +148,8 @@ h1 {
 	margin:0px;
 	padding: 5px;
 	width: 100%;
-	background: #FF7575;
+	background: #FF0000;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 }
@@ -158,7 +161,8 @@ h2 {
 	margin:0px;
 	padding: 5px;
 	width: 100%;
-	background: #FFA5A5;
+	background: #000000;
+	color: #FFFFFF;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 	}
@@ -179,7 +183,7 @@ h3 {
 	 display: block;
 	 border: 3px  #780000  ;
 	 padding: 8px 5px 8px 5px;
-	 background-color: #FFA5A5;
+	 background-color: #FF0000;
 	 font-family: "Arial", sans-serif;
 	 text-decoration: none;
 	 
@@ -193,9 +197,8 @@ nav a {
 
 	 
 a:hover:not(.active) {
-    background-color:#FF7575;
+    background-color:#FF0000;
 }
-
 
 #mainMenu {
 	 display: none;
@@ -220,7 +223,7 @@ a:hover:not(.active) {
 	
 header {
 
-	background-color: lightblue;
+	background-color: #FFFFFF;
 }
 
 
@@ -229,7 +232,8 @@ h1 {
 	margin:0px;
 	padding: 5px;
 	width:100%;
-	background: #FF7575;
+	color: #FFFFFF;
+	background: #FF0000;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 	}
@@ -240,7 +244,8 @@ h2 {
 	margin:0px;
 	padding: 5px;
 	width:100%;
-	background: #FFA5A5;
+	color: #FFFFFF;
+	background: #000000;
 	box-sizing: border-box;
 	text-shadow: 1px 1px 0px black;
 	}
