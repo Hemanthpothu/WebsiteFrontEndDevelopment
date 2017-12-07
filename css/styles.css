@@ -88,6 +88,7 @@ h2 {
 
 h3 {
     text-align: center;
+	
 	}
 
 
@@ -98,6 +99,36 @@ h3 {
 	max-width: 200px;
 	text-align:center;
 	}
+	
+	.slideshow {
+  margin: 2em auto 1em;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 280px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+img:nth-child(4) { animation-delay: 0s; }
+	
 	
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
@@ -172,6 +203,36 @@ h3 {
     text-align: center;
 	}
 
+	.slideshow {
+  margin: 2em auto 1em;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 650px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+img:nth-child(4) { animation-delay: 0s; }
+	
+	
 
 }
 
@@ -255,5 +316,36 @@ h3 {
     text-align: center;
 	width:100%;
 	}
+	
+.slideshow {
+  margin: 2em auto 1em;
+  width: 500px; /* altering this breaks the centering??? */
+  height: 270px;
+  overflow: hidden;
+  position: relative;
+}
+
+.slideshow img {
+  position: absolute;
+  width: 700px;
+  animation: round 16s infinite;
+  opacity: 0;
+}
+
+@keyframes round {
+  25% {
+    opacity: 1;
+  }
+  40% {
+    opacity: 0;
+  }
+}
+
+img:nth-child(1) { animation-delay: 12s; }
+img:nth-child(2) { animation-delay: 8s; }
+img:nth-child(3) { animation-delay: 4s; }
+img:nth-child(4) { animation-delay: 0s; }
+	
+	
 
 }
