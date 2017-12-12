@@ -1,6 +1,6 @@
 (function(){
 	
-	let menuButton = document.getElementById ("mainMenu");
+	let menuButton = document.getElementById ("mainmenu");
 	let navMenu = document.getElementById ("nav-menu");
 	
 	menuButton.addEventListener("click", toggleMenu);
@@ -9,11 +9,11 @@
 	let toggle = false; //hidden at first
 	function toggleMenu() {
 		if (toggle) { //if menu is visible
-		navMenu.classList.remove("displayMenu"), //hide the menu
+		navMenu.classList.remove("displaymenu"), //hide the menu
 		toggle = false
 		}
 		else { // false: it's hidden
-		navMenu.classList.add("displayMenu"), // show the menu
+		navMenu.classList.add("displaymenu"), // show the menu
 		toggle = true
 		}
 	}
@@ -91,3 +91,25 @@
   colorPicker.addEventListener("change",changeBGColour);
 
 }());
+
+function initMap() {
+  let leicester = {lat: 52.629109, lng: -1.139164};
+  
+  let mapDemo = document.getElementById("map");
+
+  // this sets the default location for when the map is first loaded
+  let map = new google.maps.Map(mapDemo, {
+    zoom: 13,
+    center: leicester
+  });
+
+  // these set different markers you want to show on your map
+  let markerLeicester = new google.maps.Marker({
+    position: leicester,
+    map: map,
+    title: 'Kimberlin Library'
+  });
+  
+}
+
+

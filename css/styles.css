@@ -3,6 +3,9 @@
 body {
 	background-color:#FFFFFF;
 	font-size: 19px;
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
 	}
 	
 main {
@@ -68,19 +71,19 @@ a:hover:not(.active) {
 }
 
 
-#mainMenu {
+#mainmenu {
 	display:block;
-	font-family: "Arial", sans-serif;
-	line-height: 70px;
-	text-align: center;
-	background-color:#FF0000;
-	margin:0px;
-	width: 100%;
+	  text-align: center;
+	}
+	
+#mainmenu img{
+	 width: 80px;
+    height: 80px;
 	
 	}
 
 
-.displayMenu {
+.displaymenu {
 	display: block;
 	 text-align: center;
 	 width:100%;
@@ -180,7 +183,36 @@ width:100%;
 	 display: inline;
 	 font-family: sans-serif;
 	 }
-	
+	 
+	 	img {
+ height: auto;
+ max-width: 100%;
+ overflow-x: hidden;
+ }
+
+.image-table {
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-collapse: separate;
+ border-spacing: 6px;
+ table-layout: fixed;
+ text-align: center;
+ width: 100%;
+ overflow-x: hidden;
+
+}
+
+.image-table img {
+ border: 10px solid #fff;
+ box-sizing: border-box;
+ box-shadow: 0 0 10px #999;
+ overflow-x: hidden;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  
+}	
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -211,6 +243,9 @@ main {
 	}
 
 body{
+	width:95%;
+	margin-left:auto;
+	margin-right:auto;
 	background-color:#FFFFFF;
 	}
 
@@ -233,6 +268,17 @@ header {
   50%  { background-color:rgb(255, 0, 0); }
   100% { background-color:rgb(255, 255, 255); }
   }
+	
+	#mainmenu {
+	display:block;
+	  text-align: center;
+	}
+	
+#mainmenu img{
+	width: 130px;
+    height: 130px;
+	}
+	
 	
 	
 h1 {
@@ -316,9 +362,35 @@ width:100%;
 	 display: inline;
 	 font-family: sans-serif;
 	 }
-	 
+	 	img {
+ height: auto;
+ max-width: 100%;
+ overflow-x: hidden;
+ }
 
-} 
+.image-table {
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-collapse: separate;
+ border-spacing: 6px;
+ table-layout: fixed;
+ text-align: center;
+ width: 100%;
+ overflow-x: hidden;
+
+}
+
+.image-table img {
+ border: 10px solid #fff;
+ box-sizing: border-box;
+ box-shadow: 0 0 10px #999;
+ overflow-x: hidden;
+}
+	
+#map {
+  height: 500px;
+  width: 100%;
+  
+}	
 
 	 /* /* SECOND BREAKPOINT (LARGE SIZE) */
 	@media screen and (min-width: 1000px) {
@@ -345,7 +417,7 @@ a:hover:not(.active) {
     background-color:#FF0000;
 }
 
-#mainMenu {
+#mainmenu {
 	 display: none;
 	 
 	}
@@ -358,6 +430,9 @@ a:hover:not(.active) {
 
 
 body {
+	width:90%;
+	margin-left:auto;
+	margin-right:auto;
 	 background-color:#FFFFFF;
 	}
 	
@@ -366,6 +441,7 @@ body {
 	
 main {
 	width:100%;
+	
 	}
 	
 	
@@ -451,24 +527,6 @@ padding:0px;
 text-align:center;	
 	}
 	
-.slideshow {
-  margin: 2em auto 1em;
-  width: 500px; /* altering this breaks the centering??? */
-  height: 270px;
-  overflow: hidden;
-  position: relative;
-}
-
-
-.slideshow img {
-  position: absolute;
-  width: 700px;
-  animation: round 16s infinite;
-  opacity: 0;
-}
-
-
-
 
 footer {
 background-color: #ff0000;
@@ -489,15 +547,46 @@ ul {
 	}
  
 li {
-display: inline;
+display: inline block;
 font-family: sans-serif;
 
 	}
 	
+	
+	img {
+ height: auto;
+ max-width: 100%;
 
-table {
-		text-align: center;
-		margin-left:auto;
-		margin-right:auto;
-	}
-	}
+ }
+
+.image-table {
+ border: 0px solid rgba(0, 0, 0, 0);
+ border-collapse: separate;
+ border-spacing: 6px;
+ table-layout: fixed;
+ text-align: center;
+ width: 100%;
+ overflow-x: hidden;
+
+}
+
+.image-table img {
+ border: 10px solid #fff;
+ box-sizing: border-box;
+ box-shadow: 0 0 10px #999;
+ overflow-x: hidden;
+}
+
+#map {
+  height: 500px;
+  width: 100%;
+  
+  
+}
+
+
+}
+
+
+
+	
