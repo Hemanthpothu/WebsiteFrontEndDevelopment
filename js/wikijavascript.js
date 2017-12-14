@@ -1,6 +1,8 @@
 "use strict";
 
 (function(){
+	
+	console.log("test");
   // creates a new object called xhr
   // which will handle the API call
   let xhr = new XMLHttpRequest();
