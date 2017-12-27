@@ -1,7 +1,7 @@
 1.Introduction
 
 The website that i'm going to create will be a phone site that involves the selling of phones and other related items such as
-sim cards, news about the latest technology etc. There will be a variery of options for the users to choose from however as this is just an initial prototype 
+sim cards, news about the latest technology etc. There will be a variery of options for the users to choose from however as this is just an initial prototype
 there will be restricitons set.
 
 
@@ -62,7 +62,3 @@ Contrast: The idea of contrast is to make dis-similar elements very different. C
 
 
 8.References
-
-
-
-

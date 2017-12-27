@@ -1,11 +1,11 @@
 (function(){
-	
+
 	let menuButton = document.getElementById ("mainmenu");
 	let navMenu = document.getElementById ("nav-menu");
-	
+
 	menuButton.addEventListener("click", toggleMenu);
-	
-	
+
+
 	let toggle = false; //hidden at first
 	function toggleMenu() {
 		if (toggle) { //if menu is visible
@@ -44,7 +44,7 @@
     myName.innerHTML = "stranger";
     console.log(`No name stored`);
   }
-  
+
   if(colourStored) {
 		document.body.style.backgroundColor = colourStored;
 	}
@@ -56,9 +56,9 @@
   function changeBGColour(){
     document.body.style.backgroundColor = chosenColour.value;
 	colourStored = chosenColour.value;
-	localStorage.colour = colourStored;	
+	localStorage.colour = colourStored;
   }
-  
+
 
   function PerformGreeting() {
     if(userName.value === "") {
@@ -97,7 +97,7 @@
 
 function initMap() {
   let leicester = {lat: 52.629109, lng: -1.139164};
-  
+
   let mapDemo = document.getElementById("map");
 
   // this sets the default location for when the map is first loaded
@@ -112,7 +112,7 @@ function initMap() {
     map: map,
     title: 'Kimberlin Library'
   });
-  
+
 }
 
 // "use strict";
@@ -208,17 +208,3 @@ function initMap() {
   // }, false);
 
 // }());
-
-
-
-
-
-
-
-
-
-
-
-
-
-

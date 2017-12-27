@@ -6,25 +6,33 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 
 
 <body>
-<header>
-<div id="titleheading">
-<h1> MK Phones </h1>
-<h2> Home </h2>
-</div>
+  <header>
 
+
+    <div id="titleheading">
+      <h1> MK Phones </h1>
+      <h2> Home </h2>
+    </div>
 
 
 <div id="phonelogo"><img src="imgs/phonelogo.png" alt="logo"></div>
- <h5>Hello <span id="my-name"></span>!</h5>
+<h5>Hello <span id="my-name"></span>!</h5>
 
- 
- 
+<!--Div for search form-->
+  <div id="search">
+    <input type="text" id="search-input" class="search-bar"
+    placeholder="Search...">
+    <a class="search-button" href="#search-popup">
+      <i class="icon"></i>
+    </a>
+  </div>
+
 </header>
-
 
 <a id="mainmenu" href="#"><img src="imgs/hamburgermenu.png" alt="mainmenu"></a>
 <nav id="nav-menu">
@@ -37,61 +45,68 @@
 
 <main>
 
-  
-<form id="get-name" action="#" method="post">
-  <label for="user-name">Enter name:</label>
-  <input type="text" id="user-name" placeholder="Your name?">
-  <input type="submit">
-<button id="clearStorage">Clear Storage</button>
-<p>
-  <input type="color" id="colorPicker" value="#0000ff">
- </form>
- 
-  
-<h3>
- 
-Each year people waste millions of pounds on paying more for mobile phone contracts than they should and despite this only 12% of pay monthly 
-customers switch to a new contract.
-At MK Phones we believe switching and getting 
-better connected should be great value for customers. In fact, in the last year our customers switched and saved £138m, that’s £181 on average. 
-This is possible because of our buying power and the fact we’re independent.
- 
-We embrace Ofcom’s proposals for making it easier for consumers to switch mobile networks. 
-We want to live in a world where it’s simple and easy for consumers to switch; removing 
-any hassle; saving them time and money and always giving them access to the latest technology.
- 
-Whether you want to save money, need a new handset, are struggling with poor signal strength or 
-are just fed up with the level of service you are getting, MK Phones can get you better connected.  At MK Phones we compare, you save.
+  <img src="imgs/s8.jpg" alt="Image of phone">
+
+
+  <form id="get-name" action="#" method="post">
+    <label for="user-name">Enter name:</label>
+    <input type="text" id="user-name" placeholder="Your name?">
+    <input type="submit">
+    <button id="clearStorage">Clear Storage</button>
+    <p>
+      <input type="color" id="colorPicker" value="#0000ff">
+    </form>
+
+    <h3>
+
+ <Section>
+   Each year people waste millions of pounds on paying more for mobile phone contracts than they should and despite this only 12% of pay monthly
+   customers switch to a new contract.
+   At MK Phones we believe switching and getting
+   better connected should be great value for customers. In fact, in the last year our customers switched and saved £138m, that’s £181 on average.
+   This is possible because of our buying power and the fact we’re independent.
+ </section>
+
+ <Section>
+   We embrace Ofcom’s proposals for making it easier for consumers to switch mobile networks.
+   We want to live in a world where it’s simple and easy for consumers to switch; removing
+   any hassle; saving them time and money and always giving them access to the latest technology.
+ Whether you want to save money, need a new handset, are struggling with poor signal strength or
+ are just fed up with the level of service you are getting, MK Phones can get you better connected.  At MK Phones we compare, you save.
+</section>
+
 
 </h3>
 
 
 </main>
 
+
 <footer>
-<h3> Mohammed Kharodia - MK Phones ©</h3>
 
 
-   <a href="index.html"> Home </a>
-   <a href="simonly.html"> Sim Only </a>
-  <a href="latesttech.html"> Latest Tech </a>
-   <a href="contactus.html">Contact us</a>
-	
-	<div class="social">
-	<i class="fa fa-facebook"></i>
+  <h6> Mohammed Kharodia - MK Phones ©</h6>
+
+
+<a href="index.html"> Home </a>
+<a href="simonly.html"> Sim Only </a>
+<a href="latesttech.html"> Latest Tech </a>
+<a href="contactus.html">Contact us</a>
+
+<div class="social">
+  <i class="fa fa-facebook"></i>
 	<i class="fa fa-twitter"></i>
 	<i class="fa fa-instagram"></i>
-	</div>
-	
+</div>
+
+
 </footer>
-   
 
 
-<script src="js/javascript.js"></script>
+   <script src="js/javascript.js"></script>
 
 
-
-</body>
+ </body>
 
 
 </html>
