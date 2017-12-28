@@ -8,6 +8,7 @@ body {
  margin-right:auto;
 }
 
+/*Styling for the main section of the site*/
 
 main {
   background-color: #ffffff;
@@ -37,6 +38,7 @@ header {
  margin-right:auto;
 }
 
+/*Changes the background colour in the header as an animation*/
 
 @keyframes backgroundChange {
 /* 0%   { opacity: 1; }
@@ -47,6 +49,7 @@ header {
  100% { background-color:rgb(255, 255, 255); }
  }
 
+/*Navigation style for this breakpoint*/
 
 nav {
  display:none;
@@ -98,6 +101,7 @@ a:hover:not(.active) {
  margin:0px;
 }
 
+/*Different font styles on pages*/
 
 h1 {
  text-align: center;
@@ -297,7 +301,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -307,12 +311,12 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff0000;
 }
 
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -322,13 +326,15 @@ input[type=submit] {
 
 
   #clearStorage {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
+
+/*For the phone gallery images on the Sim Only Page*/
 
 
   div.gallery {
@@ -357,7 +363,7 @@ input[type=submit] {
       width: 100%;
     }
 
-    /* This is for the Phone images on the Sim Only Page*/
+  /* This is for the hover caption on the Sim Only Page*/
 
       figure {
       width: 70%;
@@ -403,6 +409,7 @@ input[type=submit] {
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
 
+/*Navigation style for this breakpoint*/
 
  nav a {
  width: 100px;
@@ -423,6 +430,8 @@ a:hover:not(.active) {
 .active {
 background-color:#FF7575;
 }
+
+/*Styling for the main section of the site*/
 
 main {
   background-color: #ffffff;
@@ -457,6 +466,8 @@ header {
 	animation-timing-function: ease-in-out;
 	}
 
+/*Changes the background colour in the header as an animation*/
+
 @keyframes backgroundChange
   {
   /* 0%   { opacity: 1; }
@@ -467,6 +478,7 @@ header {
   100% { background-color:rgb(255, 255, 255); }
   }
 
+/*Different font styles on pages*/
 
 h1 {
  text-align: center;
@@ -546,14 +558,11 @@ form {
 
 
 footer {
- background-color: #ff0000;
- font-size: 20px;
- font-family: sans-serif;
+ background-color: #FF0000;
  width:100%;
  margin-left:auto;
  margin-right:auto;
- height: 95px;
- margin-top: 40px;
+ text-align:center;
 }
 
 
@@ -668,7 +677,7 @@ li:nth-child(even) {
 
 
  input[type=submit] {
-     background-color: #4CAF50;
+     background-color: #ff0000;
      color: white;
      padding: 12px 20px;
      border: none;
@@ -678,12 +687,12 @@ li:nth-child(even) {
 
 
  input[type=submit]:hover {
-     background-color: #45a049;
+     background-color: #ff0000;
  }
 
 
  input[type=submit] {
-     background-color: #4CAF50;
+     background-color: #ff0000;
      color: white;
      padding: 12px 20px;
      border: none;
@@ -693,7 +702,7 @@ li:nth-child(even) {
 
 
    #clearStorage {
-     background-color: #4CAF50;
+     background-color: #ff0000;
      color: white;
      padding: 12px 20px;
      border: none;
@@ -701,6 +710,7 @@ li:nth-child(even) {
      cursor: pointer;
    }
 
+/*For the phone gallery images on the Sim Only Page*/
 
 
    div.gallery {
@@ -733,7 +743,7 @@ li:nth-child(even) {
      overflow:auto;
    }
 
-   /* This is for the Phone images on the Sim Only Page*/
+/* This is for the hover caption on the Sim Only Page*/
 
      figure {
      width: 50%;
@@ -779,6 +789,7 @@ li:nth-child(even) {
 /* /* SECOND BREAKPOINT (LARGE SIZE) */
 @media screen and (min-width: 1000px) {
 
+/*Navigation style for this breakpoint*/
 
 nav {
  display: block;
@@ -822,9 +833,11 @@ body {
  text-align:right;
  margin-right:2px;
  position:relative;
- top:-74px
+ top:-82px
 }
 
+
+/*Styling for the main section of the site*/
 
 main {
   background-color: #ffffff;
@@ -851,6 +864,7 @@ header {
  animation-timing-function: ease-in-out;
 }
 
+/*Changes the background colour in the header as an animation*/
 
 @keyframes backgroundChange
 		{
@@ -862,6 +876,8 @@ header {
  100% { background-color:rgb(255, 255, 255); }
 }
 
+
+/*Different font styles on pages*/
 
 h1 {
  text-align: center;
@@ -1050,7 +1066,7 @@ input[type=text], select, textarea {
 
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -1060,12 +1076,12 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #ff0000;
 }
 
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -1075,13 +1091,15 @@ input[type=submit] {
 
 
   #clearStorage {
-    background-color: #4CAF50;
+    background-color: #ff0000;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
   }
+
+/*For the phone gallery images on the Sim Only Page*/
 
   div.gallery {
       border: 1px solid #ccc;
@@ -1112,7 +1130,7 @@ input[type=submit] {
   }
 
 
-/* This is for the Phone images on the Sim Only Page*/
+/* This is for the hover caption on the Sim Only Page*/
 
   figure {
   width: 70%;
