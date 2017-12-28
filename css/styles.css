@@ -340,7 +340,7 @@ input[type=submit] {
   }
 
   div.gallery img {
-      width: 60%;
+      width: 100%;
       height: auto;
   }
 
@@ -355,7 +355,50 @@ input[type=submit] {
 
   .different-phones {
       width: 100%;
-  }
+    }
+
+    /* This is for the Phone images on the Sim Only Page*/
+
+      figure {
+      width: 70%;
+      background: #aaa;
+      border: 2px solid #999;
+      overflow: hidden;
+    }
+
+    figure img {
+      width: 100%;
+      height: 200px;
+      background: #eee;
+      margin-bottom: -4em;
+      display: block;
+    }
+
+    figcaption {
+      box-sizing: border-box;
+      height: 4em;
+      line-height: 1.2em;
+      padding: .25em;
+      transform: translateY(4em);
+      background: #fff;
+      /* background: rgba( 255, 255, 255, 0 ); */
+      opacity: 0;
+      transition: all .5s;
+    }
+
+    /*
+      These styles are applied to the `figcaption` element when hovering
+      over the`figure` element. The `transition` property on `figcaption`
+      above is then applied to `all` these hover styles, over 0.5 seconds.
+    */
+
+    figure:hover figcaption {
+      transform: translateY(0em);
+      /* background: rgba( 255, 255, 255, .78 ); */
+      opacity: .78;
+    }
+
+
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -664,12 +707,13 @@ li:nth-child(even) {
        border: 1px solid #ccc;
    }
 
+
    div.gallery:hover {
        border: 1px solid #777;
    }
 
    div.gallery img {
-       width: 50%;
+       width: 100%;
        height: auto;
    }
 
@@ -687,6 +731,49 @@ li:nth-child(even) {
      float: left;
      width: 50%;
      overflow:auto;
+   }
+
+   /* This is for the Phone images on the Sim Only Page*/
+
+     figure {
+     width: 50%;
+     background: #aaa;
+     border: 2px solid #999;
+     overflow: hidden;
+
+   }
+
+   figure img {
+     width: 100%;
+     height: 200px;
+     background: #eee;
+     margin-bottom: -4em;
+     display: block;
+
+   }
+
+   figcaption {
+     box-sizing: border-box;
+     height: 4em;
+     line-height: 1.2em;
+     padding: .25em;
+     transform: translateY(4em);
+     background: #fff;
+     /* background: rgba( 255, 255, 255, 0 ); */
+     opacity: 0;
+     transition: all .5s;
+   }
+
+   /*
+     These styles are applied to the `figcaption` element when hovering
+     over the`figure` element. The `transition` property on `figcaption`
+     above is then applied to `all` these hover styles, over 0.5 seconds.
+   */
+
+   figure:hover figcaption {
+     transform: translateY(0em);
+     /* background: rgba( 255, 255, 255, .78 ); */
+     opacity: .78;
    }
 
 /* /* SECOND BREAKPOINT (LARGE SIZE) */
@@ -1023,3 +1110,45 @@ input[type=submit] {
       float: left;
       width: 24.99999%;
   }
+
+
+/* This is for the Phone images on the Sim Only Page*/
+
+  figure {
+  width: 70%;
+  background: #aaa;
+  border: 2px solid #999;
+  overflow: hidden;
+}
+
+figure img {
+  width: 100%;
+  height: 200px;
+  background: #eee;
+  margin-bottom: -4em;
+  display: block;
+}
+
+figcaption {
+  box-sizing: border-box;
+  height: 4em;
+  line-height: 1.2em;
+  padding: .25em;
+  transform: translateY(4em);
+  background: #fff;
+  /* background: rgba( 255, 255, 255, 0 ); */
+  opacity: 0;
+  transition: all .5s;
+}
+
+/*
+  These styles are applied to the `figcaption` element when hovering
+  over the`figure` element. The `transition` property on `figcaption`
+  above is then applied to `all` these hover styles, over 0.5 seconds.
+*/
+
+figure:hover figcaption {
+  transform: translateY(0em);
+  /* background: rgba( 255, 255, 255, .78 ); */
+  opacity: .78;
+}
