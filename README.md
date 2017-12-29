@@ -15,11 +15,13 @@ would rather choose coming to my site and puchasing the products rather than my 
 
 # Designs - Wireframes
 
-![final wireframe](https://user-images.githubusercontent.com/16776625/34448875-e901eb64-ece9-11e7-97a3-72159f9deb45.jpg)
+This image is of the initial wireframe I sketched out, These were my ideas on paper with a pencil at first which i believed how i wanted my website to be on the different media queries. This was before i started creating my website
 
 ![initial wireframe](https://user-images.githubusercontent.com/16776625/34448876-e92767d6-ece9-11e7-9e59-5371190a3514.jpg)
 
+However as i started creating my website, many things changed and my ideas evolved. Also with the help of the testing i was able to come up with the final wireframe which enabled me to improve my website vastly.
 
+![final wireframe](https://user-images.githubusercontent.com/16776625/34448875-e901eb64-ece9-11e7-97a3-72159f9deb45.jpg)
 
 
 # Designs Features
@@ -44,6 +46,8 @@ One of the main issues i was facing was having multiple javascripts in one file.
 
 
 # Testing
+
+I had 5 user testing my website to see it met the standard of usability and if it was easy to navigate around. There were several questions in the test which the users had to go through and answer and they was able to leave any positive or critical feedback of my website.
 
 ![user2](https://user-images.githubusercontent.com/16776625/34448895-16016f54-ecea-11e7-82dd-9f2aa74544c8.jpg)
 
@@ -70,12 +74,12 @@ Another user also suggested i should have an arrow at the bottom of the page whe
 
 # PARC Design
 
-I have used the four principles that the visual design of a website should include
+I have used the four principles that the visual design of a website should include:
 
-Proximity: Related items should be grouped close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
-Alignment: Every visual element on a page should have some kind of connection to at least one other element. Nothing should be positioned haphazardly.
-Repetition: Common elements, such as colors, graphics, layout styles, and so on, should be repeated to give a consistent look and feel to a page.
-Contrast: The idea of contrast is to make dis-similar elements very different. Contrast is one of the most powerful visual design tools.
+Proximity:  I have grouped related items close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
+Alignment: Every visual element on my website should has some kind of connection to at least one other element. Nothing ispositioned haphazardly.
+Repetition: All the common elements, such as colors, graphics, layout styles are  repeated to give a consistent look and feel to the pagees on my website.
+Contrast: The idea of contrast is to make dis-similar elements on my website very different. I believe contrast is one of the most powerful visual design tool which theorfore i used Black and red to get the users eye
 
 
 
@@ -85,3 +89,13 @@ Contrast: The idea of contrast is to make dis-similar elements very different. C
 
 
 # References
+
+Google translator
+https://stackoverflow.com/questions/12243818/adding-google-translate-to-a-web-site
+
+The slideshow (I adapted the code and made my own changes in the javascript file)
+https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+
+
+
