@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>MK Phone Site</title>
-<link rel="stylesheet" type="text/css" href="css/styles.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>MK Phone Site</title>
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 
 <body>
+
+
   <header id ="top-header">
     <div id="titleheading">
       <h1> MK Phones </h1>
@@ -17,19 +19,17 @@
     </div>
 
     <!--The phone logo on the website-->
+    <div id="phonelogo"><img src="imgs/phonelogo.png" alt="logo"></div>
+    <h5>Hello <span id="my-name"></span>!</h5>
 
-<div id="phonelogo"><img src="imgs/phonelogo.png" alt="logo"></div>
-<h5>Hello <span id="my-name"></span>!</h5>
 
-
-<!--Div for search form-->
-  <div id="search">
-    <input type="text" id="search-input" class="search-bar"
-    placeholder="Search...">
-    <a class="search-button" href="#search-popup">
-      <i class="icon"></i>
-    </a>
-  </div>
+    <!--Div for search form-->
+    <div id="search">
+      <input type="text" id="search-input" class="search-bar" placeholder="Search...">
+      <a class="search-button" href="#search-popup">
+        <i class="icon"></i>
+      </a>
+    </div>
 
 
 </header>
@@ -37,8 +37,8 @@
 <a id="mainmenu" href="#"><img src="imgs/hamburgermenu.png" alt="mainmenu"></a>
 <nav id="nav-menu">
 
-  <!--The navigation on the website-->
 
+  <!--The navigation on the website-->
   <a href="index.html"> Home</a>
   <a href="contract.html">Contracts</a>
   <a href="simdeals.html">Sim Deals</a>
@@ -50,83 +50,74 @@
   <h2>Contact Us</h2>
 
 
-
-
   <!--The contact form on the page-->
 
 
-<div class="container">
-<form action="#">
-<label for="fname">First Name</label>
-<input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-
-<label for="lname">Last Name</label>
-<input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-
-<label for="Email">Email Address</label>
-<input type="text" id="Email" name="EmailAddress" placeholder="Your Email Address.." required>
-
-  <label for="Reason">Reason</label>
-<select id="Reason" name="Reason">
-<option value="Phone related">Phone related</option>
-<option value="Technology related">Technology Related</option>
-<option value="Other">Other</option>
-</select>
-
-<label for="Message">Subject</label>
-<textarea id="Message" name="Message" placeholder="Your Message ..." style="height:200px"></textarea>
-
-<input type="submit" value="Send it!">
-</form>
+  <div class="container">
+    <form action="#">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+      <label for="Email">Email Address</label>
+      <input type="text" id="Email" name="EmailAddress" placeholder="Your Email Address.." required>
+      <label for="Reason">Reason</label>
+      <select id="Reason" name="Reason">
+      <option value="Phone related">Phone related</option>
+      <option value="Technology related">Technology Related</option>
+      <option value="Other">Other</option>
+    </select>
+    <label for="Message">Subject</label>
+    <textarea id="Message" name="Message" placeholder="Your Message ..." style="height:200px"></textarea>
+    <input type="submit" value="Send it!">
+  </form>
 </div>
 
-
-
- <div id="map"></div>
+<!--The map div-->
+<div id="map"></div>
 
 
 </main>
 
-<!--Allows user to go back to the top of the page-->
 
+<!--Allows user to go back to the top of the page-->
 <div id="go-top">
-<a href="#top-header">
-<img src="imgs/toparrow.png" alt="toparrow">
-</a>
+  <a href="#top-header">
+    <img src="imgs/toparrow.png" alt="toparrow">
+  </a>
 </div>
 
 
 <footer>
-<h6> Mohammed Kharodia - MK Phones ©</h6>
-
-<!--The site map on the page-->
-
-<a href="index.html"> Home </a>
-<a href="contract.html">Contracts</a>
-<a href="simdeals.html">Sim Deals</a>
-<a href="contactus.html">Contact Us</a>
+  <h6> Mohammed Kharodia - MK Phones ©</h6>
 
 
-<!--The links to the social media websites-->
+  <!--The site map on the page-->
+  <a href="index.html"> Home </a>
+  <a href="contract.html">Contracts</a>
+  <a href="simdeals.html">Sim Deals</a>
+  <a href="contactus.html">Contact Us</a>
 
-<div class="social">
-  <a target="_blank" href="https://facebook.com/">
-  <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-</a>
-<a target="_blank" href="https://twitter.com/">
-<i class="fa fa-twitter fa-2x"  aria-hidden="true"></i>
-</a>
-<a target="_blank" href="https://instagram.com/">
-<i class="fa fa-instagram fa-2x"  aria-hidden="true"></i>
-</a>
-</div>
 
+  <!--The links to the social media websites-->
+  <div class="social">
+    <a target="_blank" href="https://facebook.com/">
+      <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+    </a>
+    <a target="_blank" href="https://twitter.com/">
+      <i class="fa fa-twitter fa-2x"  aria-hidden="true"></i>
+    </a>
+    <a target="_blank" href="https://instagram.com/">
+      <i class="fa fa-instagram fa-2x"  aria-hidden="true"></i>
+    </a>
+  </div>
 </footer>
 
-
-
 <script src="js/javascript.js"></script>
+
+<!--The script for the google map API-->
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTSUJZ-7Riqfa589XYG3291A2N1cDCT_Y&callback=initMap"></script>
+
 
 </body>
 
