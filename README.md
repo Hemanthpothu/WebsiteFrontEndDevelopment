@@ -90,6 +90,12 @@ I have used the four principles that the visual design of a website should inclu
 * Repetition: All the common elements, such as colors, graphics, layout styles are  repeated to give a consistent look and feel to the pagees on my website.
 * Contrast: The idea of contrast is to make dis-similar elements on my website very different. I believe contrast is one of the most powerful visual design tool which theorfore i used Black and red to get the users eye
 
+# Site Map
+
+This is the sitemap of my website to allow the user to know how to navigate around
+
+<img width="170" alt="sitemap" src="https://user-images.githubusercontent.com/16776625/34449579-81f8a4a0-ecf1-11e7-904a-79e4081e336c.png">
+
 
 # References
 
