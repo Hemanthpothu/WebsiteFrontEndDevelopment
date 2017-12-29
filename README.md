@@ -14,17 +14,12 @@ would rather choose coming to my site and puchasing the products rather than my 
 
 
 
-3.Designs
+3.Designs - Wireframes
 
 
 
-Initial first designs
 
-
-Final Designs
-
-
-3a) - Feature Designs
+3a) - Designs Features
 
 Multiple Page Site - The site is made up of multiple pages which means that the the site takes the user to a series of pages when they click on differnt links to browse.
 
