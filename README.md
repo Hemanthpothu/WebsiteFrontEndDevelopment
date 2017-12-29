@@ -32,6 +32,8 @@ Other Navigation - (Site Map) - There is also a site map at the bottom of all pa
 
 Social media icons - These icons are within the footer at the bottom of the site on all the pages. When the user hovers over these items, an effect is generated to show what icon is being hovered over
 
+# Issues
+
 
 # Testing
 
@@ -49,6 +51,7 @@ Social media icons - These icons are within the footer at the bottom of the site
 
 # Results
 
+I got a good feedback from the testers which enabled me to change a few things on my website. One of the user suggested i could add in a language translator feature which i did
 
 
 
