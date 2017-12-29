@@ -9,8 +9,7 @@ there will be restricitons set.
 The motivation behind creating the website was the fact that in this day and age literally everyone of all ages ranging
 from school kids to older aged people tend to have a mobile phone. As there is alot of competion ith phone shops and network providers
 i thought why not sell the same deals at the slightly better price which would therefore mean that people
-would rather choose coming to my site and puchasing the products rather than my competitors.
-
+would rather choose coming to my site and puRchasing the products rather than my competitors.
 
 
 # Designs - Wireframes
@@ -70,7 +69,6 @@ I had 5 user testing my website to see it met the standard of usability and if i
 ![user5](https://user-images.githubusercontent.com/16776625/34448898-166e8e2c-ecea-11e7-87b5-8f23934a40f3.jpg)
 
 ![user1](https://user-images.githubusercontent.com/16776625/34448899-16948a0a-ecea-11e7-8fa0-dab70018a04d.jpg)
-
 
 
 # Improvements made from testing results
