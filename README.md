@@ -22,7 +22,7 @@ would rather choose coming to my site and puchasing the products rather than my 
 
 
 
-3a) - Designs Features
+# Designs Features
 
 Multiple Page Site - The site is made up of multiple pages which means that the the site takes the user to a series of pages when they click on differnt links to browse.
 
@@ -33,10 +33,7 @@ Other Navigation - (Site Map) - There is also a site map at the bottom of all pa
 Social media icons - These icons are within the footer at the bottom of the site on all the pages. When the user hovers over these items, an effect is generated to show what icon is being hovered over
 
 
-4.Testing
-
-Userbility testing
-
+# Testing
 
 ![user2](https://user-images.githubusercontent.com/16776625/34448895-16016f54-ecea-11e7-82dd-9f2aa74544c8.jpg)
 
@@ -50,12 +47,12 @@ Userbility testing
 
 
 
-5.Results
+#Results
 
 
 
 
-6.PARC Design
+#PARC Design
 
 I have used the four principles that the visual design of a website should include
 
@@ -66,9 +63,9 @@ Contrast: The idea of contrast is to make dis-similar elements very different. C
 
 
 
-7.Conclusion
+# Conclusion
 
 
 
 
-8.References
+# References
