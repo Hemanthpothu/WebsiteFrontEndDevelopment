@@ -47,6 +47,8 @@ One of the main issues i was facing was having multiple javascripts in one file.
 
 Also another issue i was having was with the slideshow. This is because the code online has onlick which i was not allowed to use, However i adapted the code from online from W3 schools and inserted 'Event Listeners' which enabled me to make the slideshow javascript to work.
 
+![eventlistener](https://user-images.githubusercontent.com/16776625/34449442-19ccfecc-ecf0-11e7-8854-a2c7a80d396c.JPG)
+
 
 # Testing
 
