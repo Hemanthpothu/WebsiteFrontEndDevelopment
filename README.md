@@ -82,12 +82,6 @@ I have used the four principles that the visual design of a website should inclu
 * Contrast: The idea of contrast is to make dis-similar elements on my website very different. I believe contrast is one of the most powerful visual design tool which theorfore i used Black and red to get the users eye
 
 
-
-# Conclusion
-
-
-
-
 # References
 
 * Google translator
