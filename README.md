@@ -42,20 +42,19 @@ Google Maps API - This enables the user to know where the location of my phone s
 
 # Issues
 
-*(SOLVED)
 ![javascripterror](https://user-images.githubusercontent.com/16776625/34449636-3a327fd2-ecf2-11e7-87d4-60f5887ef019.png)
 
+* (SOLVED)
 One of the main issues i was facing was having multiple javascripts in one file. This meant that because i had a feature on the index page where the user could input their name as a welcome message,  the javascript was trying to find that function/ feature on all the other pages too which i had not inserted that feature on. To get past this Javascript error. i included an 'if' statement to by pass this error
-
-*(SOLVED)
-Also another issue i was having was with the slideshow. This is because the code online has onlick which i was not allowed to use, However i adapted the code from online from W3 schools and inserted 'Add Event Listeners' which enabled me to make the slideshow javascript to work.
 
 ![eventlistener](https://user-images.githubusercontent.com/16776625/34449442-19ccfecc-ecf0-11e7-8854-a2c7a80d396c.JPG)
 
-Another issue i seem to have which i could not resolve was for the background animation which i adapted from the Front end web development lab. I have key frame errors and no matter wha ti did i just could not get rid of them
+* (SOLVED)
+Also another issue i was having was with the slideshow. This is because the code online has onlick which i was not allowed to use, However i adapted the code from online from W3 schools and inserted 'Add Event Listeners' which enabled me to make the slideshow javascript to work.
 
 ![csserror](https://user-images.githubusercontent.com/16776625/34449486-90f7f786-ecf0-11e7-9914-dd332852eb7f.JPG)
 
+Another issue i seem to have which i could not resolve was for the background animation which i adapted from the Front end web development lab. I have key frame errors and no matter wha ti did i just could not get rid of them
 
 # Testing
 
