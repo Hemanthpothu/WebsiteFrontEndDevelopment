@@ -47,12 +47,12 @@ Social media icons - These icons are within the footer at the bottom of the site
 
 
 
-#Results
+# Results
 
 
 
 
-#PARC Design
+# PARC Design
 
 I have used the four principles that the visual design of a website should include
 
