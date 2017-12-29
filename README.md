@@ -49,10 +49,15 @@ Social media icons - These icons are within the footer at the bottom of the site
 
 
 
-# Results
+# Improvements made from testing results
 
-I got a good feedback from the testers which enabled me to change a few things on my website. One of the user suggested i could add in a language translator feature which i did
+I got a good feedback from the testers which enabled me to change a few things on my website. One of the user suggested i could add in a language translator feature which i did which enabled users to read my website to their preffered language
 
+![translator](https://user-images.githubusercontent.com/16776625/34448998-686e8aa0-eceb-11e7-8824-5eeaff28a36d.JPG)
+
+Another user also suggested i should have an arrow at the bottom of the page where it would enable the user to go back to the top of the page which was a very good suggestion so i made changes and included that too
+
+![arrow](https://user-images.githubusercontent.com/16776625/34448999-68a60548-eceb-11e7-839a-977587f0a1cf.JPG)
 
 
 # PARC Design
