@@ -90,11 +90,15 @@ I have used the four principles that the visual design of a website should inclu
 
 # References
 
-Google translator
+*Google translator
 https://stackoverflow.com/questions/12243818/adding-google-translate-to-a-web-site
 
-The slideshow (I adapted the code and made my own changes in the javascript file)
+*The slideshow (I adapted the code and made my own changes in the javascript file)
 https://www.w3schools.com/w3css/w3css_slideshow.asp
+
+*DMU - Lab 04 - Mobile First Responsiveness
+
+
 
 
 
