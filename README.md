@@ -16,6 +16,10 @@ would rather choose coming to my site and puchasing the products rather than my 
 
 3.Designs - Wireframes
 
+![final wireframe](https://user-images.githubusercontent.com/16776625/34448875-e901eb64-ece9-11e7-97a3-72159f9deb45.jpg)
+
+![initial wireframe](https://user-images.githubusercontent.com/16776625/34448876-e92767d6-ece9-11e7-9e59-5371190a3514.jpg)
+
 
 
 
