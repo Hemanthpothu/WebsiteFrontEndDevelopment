@@ -76,10 +76,10 @@ Another user also suggested i should have an arrow at the bottom of the page whe
 
 I have used the four principles that the visual design of a website should include:
 
-Proximity:  I have grouped related items close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
-Alignment: Every visual element on my website should has some kind of connection to at least one other element. Nothing ispositioned haphazardly.
-Repetition: All the common elements, such as colors, graphics, layout styles are  repeated to give a consistent look and feel to the pagees on my website.
-Contrast: The idea of contrast is to make dis-similar elements on my website very different. I believe contrast is one of the most powerful visual design tool which theorfore i used Black and red to get the users eye
+* Proximity:  I have grouped related items close together. This provides the viewer with a visual cue that this items are similar and should be treated as a group.
+* Alignment: Every visual element on my website should has some kind of connection to at least one other element. Nothing ispositioned haphazardly.
+* Repetition: All the common elements, such as colors, graphics, layout styles are  repeated to give a consistent look and feel to the pagees on my website.
+* Contrast: The idea of contrast is to make dis-similar elements on my website very different. I believe contrast is one of the most powerful visual design tool which theorfore i used Black and red to get the users eye
 
 
 
