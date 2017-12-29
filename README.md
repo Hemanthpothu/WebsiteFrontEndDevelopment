@@ -32,7 +32,15 @@ Other Navigation - (Site Map) - There is also a site map at the bottom of all pa
 
 Social media icons - These icons are within the footer at the bottom of the site on all the pages. When the user hovers over these items, an effect is generated to show what icon is being hovered over
 
+Language translator - This enables the users to change the language on the page to their preferred language
+
+Wiki API - This enables the users to search for phones on the site which brings back results from wikipedia
+
+Google Maps API - This enables the user to know where the location of my phone shop is
+
 # Issues
+
+One of the main issues i was facing was having multiple javascripts in one file. This meant that because i had a feature on the index page where the user could input their name as a welcome message,  the javascript was trying to find that function/ feature on all the other pages too which i had not inserted that feature on. To get past this Javascript error. i included an 'if' statement to by pass this error
 
 
 # Testing
