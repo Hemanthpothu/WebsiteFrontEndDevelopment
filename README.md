@@ -45,7 +45,7 @@ Google Maps API - This enables the user to know where the location of my phone s
 One of the main issues i was facing was having multiple javascripts in one file. This meant that because i had a feature on the index page where the user could input their name as a welcome message,  the javascript was trying to find that function/ feature on all the other pages too which i had not inserted that feature on. To get past this Javascript error. i included an 'if' statement to by pass this error
 
 
-Also another issue i was having was with the slideshow. This is because the code online has onlick which i was not allowed to use, However i adapted the code from online from W3 schools and inserted 'Event Listeners' which enabled me to make the slideshow javascript to work.
+Also another issue i was having was with the slideshow. This is because the code online has onlick which i was not allowed to use, However i adapted the code from online from W3 schools and inserted 'Add Event Listeners' which enabled me to make the slideshow javascript to work.
 
 ![eventlistener](https://user-images.githubusercontent.com/16776625/34449442-19ccfecc-ecf0-11e7-8854-a2c7a80d396c.JPG)
 
