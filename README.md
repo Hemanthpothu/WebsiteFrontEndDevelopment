@@ -49,6 +49,10 @@ Also another issue i was having was with the slideshow. This is because the code
 
 ![eventlistener](https://user-images.githubusercontent.com/16776625/34449442-19ccfecc-ecf0-11e7-8854-a2c7a80d396c.JPG)
 
+Another issue i seem to have which i could not resolve was for the background animation which i adapted from the Front end web development lab. I have key frame errors and no matter wha ti did i just could not get rid of them
+
+![csserror](https://user-images.githubusercontent.com/16776625/34449486-90f7f786-ecf0-11e7-9914-dd332852eb7f.JPG)
+
 
 # Testing
 
