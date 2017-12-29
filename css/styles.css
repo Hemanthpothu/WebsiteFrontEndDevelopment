@@ -251,8 +251,9 @@ footer {
 ul {
  list-style-type: none;
  display: table;
- width: 80%;
+ width: 70%;
  border-spacing: 0 10px;
+ margin-left: -10px;
 
 }
 
@@ -404,7 +405,27 @@ input[type=submit] {
       opacity: .78;
     }
 
+    /* for the top arrow button at the bottom of the page to go back to the top */
 
+    #go-top {
+     margin-top: 20px;
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+       width: -5%;
+    }
+
+    #go-top img {
+      width: 60px;
+      height:50px;
+    }
+
+    /*For the slideshow on the latest tech page*/
+
+    .slideshow {
+    width: 70%;
+    margin-left: 15%;
+    }
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -784,6 +805,29 @@ li:nth-child(even) {
      transform: translateY(0em);
      /* background: rgba( 255, 255, 255, .78 ); */
      opacity: .78;
+   }
+
+
+   /* for the top arrow button at the bottom of the page to go back to the top */
+
+   #go-top {
+    margin-top: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+      width: -3%;
+   }
+
+   #go-top img {
+     width: 60px;
+     height:50px;
+   }
+
+   /*For the slideshow on the latest tech page*/
+
+   .slideshow {
+   width: 70%;
+   margin-left: 15%;
    }
 
 /* /* SECOND BREAKPOINT (LARGE SIZE) */
@@ -1169,4 +1213,26 @@ figure:hover figcaption {
   transform: translateY(0em);
   /* background: rgba( 255, 255, 255, .78 ); */
   opacity: .78;
+}
+
+/* for the top arrow button at the bottom of the page to go back to the top */
+
+#go-top {
+ margin-top: 20px;
+ text-align: center;
+ margin-left: auto;
+ margin-right: auto;
+   width: 2%;
+}
+
+#go-top img {
+  width: 60px;
+  height:50px;
+}
+
+/*For the slideshow on the latest tech page*/
+
+.slideshow {
+width: 70%;
+margin-left: 15%;
 }

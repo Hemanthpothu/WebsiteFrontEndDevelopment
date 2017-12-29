@@ -101,9 +101,6 @@ if (getName){
 
 }());
 
-
-"use strict";
-
 (function(){
 
 	console.log("test");
@@ -135,13 +132,7 @@ if (getName){
                 origin=*& \
                 gsrsearch=";
 
-/*
-API Sandbox url
-https://en.wikipedia.org/wiki/Special:ApiSandbox#action=query&format=json&generator=search&prop=extracts%7Clanglinks%7Cpageimages&gsrlimit=10&gsrnamespace=0&exintro&explaintext&exsentences=1&exlimit=max&llprop=url&lllimit=max&piprop=thumbnail|name&origin=*&gsrsearch=kittens
 
-Request url
-https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&prop=extracts%7Clanglinks%7Cpageimages&gsrlimit=10&gsrnamespace=0&exintro&explaintext&exsentences=1&exlimit=max&llprop=url&lllimit=max&piprop=thumbnail|name&origin=*&gsrsearch=kittens
-*/
 
   function gatherData(data) {
     // console.log(data);
@@ -201,6 +192,57 @@ https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&pro
 
 }());
 
+(function(){
+
+//The back arrow button is a slideshow
+
+let backArrow = document.getElementById("back-arrow");
+
+//For the forward arrow button in the slideshow
+
+let forwardArrow = document.getElementById("forward-arrow");
+
+//First image in the slideshow
+
+	let slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+			showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+			let i;
+			let x = document.getElementsByClassName("slides");
+			if (n > x.length) {slideIndex = 1}
+			if (n < 1) {slideIndex = x.length} ;
+			for (i = 0; i < x.length; i++) {
+					x[i].style.display = "none";
+			}
+			if(x[slideIndex - 1]) {
+			x[slideIndex-1].style.display = "block";
+	}
+};
+//if there is a back arrow element, add the event listener
+if (backArrow) {
+	backArrow.addEventListener("click", function (){plusDivs(-1)});
+}
+
+//If there is a forward element, add the event listener
+
+if (forwardArrow) {
+	forwardArrow.addEventListener("click", function (){plusDivs(1)});
+
+}
+
+})();
+
+
+
+
+
+
+
 
 function initMap() {
   let leicester = {lat: 52.629109, lng: -1.139164};
@@ -219,30 +261,4 @@ function initMap() {
     map: map,
     title: 'Kimberlin Library'
   });
-
-
-
-menuButton.addEventListener("click", plusDivs);
-menuButton.addEventListener("click", plusDivs);
-
-
-
-	let slideIndex = 1;
-	showDivs(slideIndex);
-
-	function plusDivs(n) {
-	    showDivs(slideIndex += n);
-	}
-
-	function showDivs(n) {
-	    let i;
-	    let x = document.getElementsByClassName("mySlides");
-	    if (n > x.length) {slideIndex = 1}
-	    if (n < 1) {slideIndex = x.length} ;
-	    for (i = 0; i < x.length; i++) {
-	        x[i].style.display = "none";
-	    }
-	    x[slideIndex-1].style.display = "block";
-	}
-
 }
