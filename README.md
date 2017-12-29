@@ -1,11 +1,10 @@
-1.Introduction
+#Introduction
 
 The website that i'm going to create will be a phone site that involves the selling of phones and other related items such as
 sim cards, news about the latest technology etc. There will be a variery of options for the users to choose from however as this is just an initial prototype
 there will be restricitons set.
 
-
-2.Motivation
+#Motivation
 
 The motivation behind creating the website was the fact that in this day and age literally everyone of all ages ranging
 from school kids to older aged people tend to have a mobile phone. As there is alot of competion ith phone shops and network providers
@@ -14,7 +13,7 @@ would rather choose coming to my site and puchasing the products rather than my 
 
 
 
-3.Designs - Wireframes
+#Designs - Wireframes
 
 ![final wireframe](https://user-images.githubusercontent.com/16776625/34448875-e901eb64-ece9-11e7-97a3-72159f9deb45.jpg)
 
