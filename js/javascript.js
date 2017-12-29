@@ -273,3 +273,13 @@ function initMap() {
     title: 'Kimberlin Library'
   });
 }
+
+		//This is the javascript for the google language translator
+		
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+            {pageLanguage: 'en'},
+            'google_translate_element'
+        );
+
+    }
