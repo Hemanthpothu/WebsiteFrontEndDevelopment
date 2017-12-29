@@ -93,6 +93,9 @@ https://www.w3schools.com/w3css/w3css_slideshow.asp
 * Google API
 tps://developers.google.com/maps/documentation/javascript/
 
+* Font Family
+https://www.w3schools.com/cssref/pr_font_font-family.asp
+
 * Wiki API - DMU - Front End Web Development Labs
 
 * Mobile First Responsiveness - DMU - Front End Web Development Labs
