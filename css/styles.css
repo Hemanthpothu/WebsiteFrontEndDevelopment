@@ -11,7 +11,7 @@ body {
 /*Styling for the main section of the site*/
 
 main {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   margin-top: 3px;
   width: 100%;
   border-radius: 2px;
@@ -227,6 +227,7 @@ footer {
 
  /* Awesome fonts*/
 
+
 .fa-facebook:hover {
  background: #3B5998;
  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
@@ -364,7 +365,7 @@ input[type=submit] {
       width: 100%;
     }
 
-  /* This is for the hover caption on the Sim Only Page*/
+/* This is for the hover caption on the contracts page*/
 
       figure {
       width: 70%;
@@ -408,24 +409,43 @@ input[type=submit] {
     /* for the top arrow button at the bottom of the page to go back to the top */
 
     #go-top {
-     margin-top: 20px;
+      margin-top: 50px;
      text-align: center;
      margin-left: auto;
      margin-right: auto;
-       width: -5%;
+
     }
 
     #go-top img {
-      width: 60px;
+      width: 50px;
       height:50px;
     }
 
-    /*For the slideshow on the latest tech page*/
+     /*For the slideshow on the Simdeals page*/
 
     .slideshow {
     width: 70%;
     margin-left: 15%;
+    margin-top: 120px;
+    margin-bottom: 120px;
     }
+
+    #back-arrow  {
+      float:left;
+      height: 30px;
+      width:20px;
+      background-color: #ff0000;
+      margin-top: 15px;
+    }
+
+    #forward-arrow {
+      float: right;
+      height: 30px;
+      width:20px;
+      background-color: #ff0000;
+      margin-top: 15px;
+    }
+
 
  /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
@@ -455,7 +475,7 @@ background-color:#FF7575;
 /*Styling for the main section of the site*/
 
 main {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   margin-top: 3px;
   width: 100%;
   border-radius: 2px;
@@ -463,6 +483,7 @@ main {
   margin-right: auto;
   text-align: center;
   border: 1px solid #ffffff;
+
 }
 
 
@@ -764,7 +785,7 @@ li:nth-child(even) {
      overflow:auto;
    }
 
-/* This is for the hover caption on the Sim Only Page*/
+/* This is for the hover caption on the contracts page*/
 
      figure {
      width: 50%;
@@ -811,24 +832,43 @@ li:nth-child(even) {
    /* for the top arrow button at the bottom of the page to go back to the top */
 
    #go-top {
-    margin-top: 20px;
+     margin-top: 50px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-      width: -3%;
+
    }
 
    #go-top img {
-     width: 60px;
+     width: 50px;
      height:50px;
    }
 
-   /*For the slideshow on the latest tech page*/
+   /*For the slideshow on the Simdeals page*/
 
    .slideshow {
    width: 70%;
    margin-left: 15%;
+   margin-top: 120px;
+   margin-bottom: 120px;
    }
+
+   #back-arrow  {
+     float:left;
+     height: 40px;
+     width:30px;
+     background-color: #ff0000;
+     margin-top: 15px;
+   }
+
+   #forward-arrow {
+     float: right;
+     height: 40px;
+     width:30px;
+     background-color: #ff0000;
+     margin-top: 15px;
+   }
+
 
 /* /* SECOND BREAKPOINT (LARGE SIZE) */
 @media screen and (min-width: 1000px) {
@@ -873,18 +913,10 @@ body {
 }
 
 
-.social {
- text-align:right;
- margin-right:2px;
- position:relative;
- top:-82px
-}
-
-
 /*Styling for the main section of the site*/
 
 main {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   margin-top: 3px;
   width: 100%;
   border-radius: 2px;
@@ -1039,17 +1071,27 @@ footer {
 
 /* Awesome fonts*/
 
+.social {
+ text-align:right;
+ margin-right:2px;
+ position:relative;
+ top:-60px
+}
+
+
 .fa-facebook:hover {
  background: #3B5998;
  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
  color: #ffffff;
 }
 
+
 .fa-twitter:hover {
  background: #3B5998;
  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
  color: #ffffff;
 }
+
 
 .fa-instagram:hover	{
  background: #3B5998;
@@ -1161,6 +1203,7 @@ input[type=submit] {
   div.desc {
       padding: 15px;
       text-align: center;
+
   }
 
   * {
@@ -1174,7 +1217,7 @@ input[type=submit] {
   }
 
 
-/* This is for the hover caption on the Sim Only Page*/
+/* This is for the hover caption on the contracts page*/
 
   figure {
   width: 70%;
@@ -1218,7 +1261,7 @@ figure:hover figcaption {
 /* for the top arrow button at the bottom of the page to go back to the top */
 
 #go-top {
- margin-top: 20px;
+ margin-top: 50px;
  text-align: center;
  margin-left: auto;
  margin-right: auto;
@@ -1230,9 +1273,29 @@ figure:hover figcaption {
   height:50px;
 }
 
-/*For the slideshow on the latest tech page*/
+   /*For the slideshow on the Simdeals page*/
 
 .slideshow {
 width: 70%;
 margin-left: 15%;
+margin-top: 120px;
+margin-bottom: 120px;
+}
+
+#back-arrow  {
+  float:left;
+  height: 50px;
+  width:40px;
+  background-color: #ff0000;
+  margin-top: 15px;
+}
+
+
+#forward-arrow {
+  float: right;
+  height: 50px;
+  width:40px;
+  background-color: #ff0000;
+  margin-top: 15px;
+  margin-right: 10px
 }

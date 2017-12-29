@@ -1,3 +1,6 @@
+//This is the Javascript for the navigation menu
+
+
 (function(){
 
 	let menuButton = document.getElementById ("mainmenu");
@@ -19,6 +22,9 @@
 	}
 
 }) ();
+
+
+//This is the Javascript for the input of the user name and the colour change of the background
 
 
 (function(){
@@ -100,6 +106,10 @@ if (getName){
 	}
 
 }());
+
+
+//This is the Javascript for Wiki API
+
 
 (function(){
 
@@ -192,6 +202,10 @@ if (getName){
 
 }());
 
+
+//This is the Javascript for the slideshow on the Latest tech page
+
+
 (function(){
 
 //The back arrow button is a slideshow
@@ -238,10 +252,7 @@ if (forwardArrow) {
 })();
 
 
-
-
-
-
+//This is the Javascript for Google Map API
 
 
 function initMap() {
