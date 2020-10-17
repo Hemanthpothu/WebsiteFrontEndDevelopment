@@ -3,6 +3,7 @@
 The website that i'm going to create will be a phone site that involves the selling of phones and other related items such as
 sim cards, news about the latest technology etc. There will be a variery of options for the users to choose from however as this is just an initial prototype
 there will be restricitons set.
+if we want to use in a responsive way then we can use flex box instead of float or block elements then the front end will get adjusted according to the screen.
 
 # Motivation
 
